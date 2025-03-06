@@ -1,0 +1,65 @@
+:root {
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+  --ff-asap: "Asap", system-ui, sans-serif;
+  --ff-inconsolata: "Inconsolata", system-ui, sans-serif;
+  --ff-maven-pro: "Maven Pro",system-ui, sans-serif;
+  --fw-bold:700;
+  --fw-base:400;
+  --fs-ttl-lg:3.5rem ;
+  --fs-ttl-md:1.5rem;
+  --fs-ttl-sm:1rem;
+  --fs-subtl:1.25rem;
+  --fs-txt-md:1rem;
+  --fs-txt-sm:0.875rem;
+  --px-lg:7.5rem;
+  --py-btm-lg: 3.5rem;
+}
+*::before && ::after{
+    box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  -webkit-font-smothing: antialiased;
+  -moz-osx-font-smothing: grayscale;
+}
+html{
+    color: var(--gray-500);
+    line-height: 1.2;
+    background-color: var(--gray-100);
+    font-family: var(--ff-maven-pro);
+    scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+h4{
+ font:normal var(--fw-base) var(--fs-subtl)/1.2 var(--ff-inconsolata)
+}
+
+p{
+  font: normal var(--fw-base) var(--fs-txt-sm)/1.4;
+  color: var(--gray-400);
+
+}
+
+ul[role="list"]{
+  list-style: none;
+}
+
+h1,h2,h3{
+  font: inherit/1.4  var(--ff-asap) ;
+  font-weight: var(--fw-bold);
+
+}

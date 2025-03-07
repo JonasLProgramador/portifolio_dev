@@ -10,7 +10,7 @@
   }
 
   & header > img {
-    margin-block: 8rem 3.5rem;
+    margin-block: 5rem 3.5rem;
     border: 0.2rem solid var(--red);
     width: 7rem;
     height: 7rem;

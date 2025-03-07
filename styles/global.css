@@ -22,7 +22,7 @@
   --fs-txt-md:1rem;
   --fs-txt-sm:0.875rem;
   --px-lg:7.5rem;
-  --py-btm-lg: 3.5rem;
+  --pbt-lg: 3.5rem;
 }
 *::before && ::after{
     box-sizing: border-box;
@@ -49,7 +49,7 @@ h4{
 }
 
 p{
-  font: normal var(--fw-base) var(--fs-txt-sm)/1.4;
+  font:  var(--fw-base) var(--fs-txt-sm)/1.4  var(--ff-maven-pro);
   color: var(--gray-400);
 
 }

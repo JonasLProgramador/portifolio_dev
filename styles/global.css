@@ -37,7 +37,7 @@
 html{
     color: var(--gray-500);
     line-height: 1.2;
-    background-color: var(--gray-100);
+    background-color: var(--gray-200);
     font-family: var(--ff-maven-pro);
     scroll-behavior: smooth;
 }

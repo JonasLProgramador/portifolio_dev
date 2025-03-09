@@ -38,6 +38,10 @@
     grid-auto-flow: row;
 }
 
+.flow-row{
+    grid-auto-flow: column;
+}
+
 .pbt{
     padding-bottom: var(--pbt-lg);
 }

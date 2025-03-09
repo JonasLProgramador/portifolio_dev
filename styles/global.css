@@ -44,6 +44,11 @@ html{
 body{
   overflow-x: hidden;
 }
+
+h3{
+ color: var(--gray-600); 
+}
+
 h4{
  font:normal var(--fw-base) var(--fs-subtl)/1.2 var(--ff-inconsolata)
 }
@@ -53,6 +58,7 @@ p{
   color: var(--gray-400);
 
 }
+
 
 ul[role="list"]{
   list-style: none;

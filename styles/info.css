@@ -1,23 +1,32 @@
 #info {
-  background: no-repeat center / cover
-    url(../assets/images/Background_Intro.png);
+  background: url(../assets/images/Background_Intro.png) no-repeat center/cover;
   padding: 0 10.1875rem 10.1875rem 10.1875rem;
-
+  header{
+    position: relative;
+    inset: 2;
+  }
+  .profile{
+    position: absolute;
+    top: 150px;
+    left: 660px;
+    width: 32px;
+    height: 32px;
+  }
   & h1 + p {
     padding-bottom: 5rem;
     line-height: 1.4;
-    max-width: 50rem;
+    max-width: 43rem;
   }
 
   & header > img {
     margin-block: 5rem 3.5rem;
     border: 0.2rem solid var(--red);
-    width: 7rem;
-    height: 7rem;
+    width: 5.454375rem;
+    height: 5.454375rem;
     border-radius: 100px;
     padding: 0.5rem;
   }
-  & ul + img {
+  .indicator {
     padding-top: 5.875rem;
   }
 

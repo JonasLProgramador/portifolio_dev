@@ -1,21 +1,22 @@
-section > header {
-  padding-top: 72px;
-  text-align: center;
-  padding-bottom: 56px;
-}
 
 #projects {
-  padding-top: 11, 8125rem;
+  header {
+    padding-top: 72px;
+    text-align: center;
+    padding-bottom: 56px;
+  }
+  
   padding-bottom: 9rem;
   overflow: hidden;
 
-  h3 {
-    font-size: var(--fs-ttl-sm);
+  header > h3 {
+    font-size: var(--fs-ttl-md);
     line-height: 1.2;
   }
 
   h4 {
     color: var(--red);
+    padding-bottom: .5rem;
   }
   .cards {
     grid-template-columns: repeat(3, 20.625rem);
